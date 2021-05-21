@@ -3,8 +3,8 @@ module k8s.io/release
 go 1.16
 
 require (
-	cloud.google.com/go v0.75.0
-	cloud.google.com/go/logging v1.1.2
+	cloud.google.com/go v0.81.0
+	cloud.google.com/go/logging v1.4.2
 	cloud.google.com/go/storage v1.12.0
 	github.com/GoogleCloudPlatform/testgrid v0.0.38
 	github.com/blang/semver v3.5.1+incompatible
@@ -33,11 +33,11 @@ require (
 	github.com/spiegel-im-spiegel/go-cvss v0.4.0
 	github.com/stretchr/testify v1.7.0
 	github.com/yuin/goldmark v1.3.5
-	golang.org/x/net v0.0.0-20210331212208-0fccb6fa2b5c
-	golang.org/x/oauth2 v0.0.0-20210112200429-01de73cf58bd
+	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
+	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
-	google.golang.org/api v0.36.0
-	google.golang.org/genproto v0.0.0-20210111234610-22ae2b108f89
+	google.golang.org/api v0.46.0
+	google.golang.org/genproto v0.0.0-20210517163617-5e0236093d7a
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/utils v0.0.0-20210305010621-2afb4311ab10
