@@ -3,8 +3,8 @@ module k8s.io/release
 go 1.16
 
 require (
-	cloud.google.com/go v0.88.0
-	cloud.google.com/go/storage v1.12.0
+	cloud.google.com/go/containeranalysis v0.6.0
+	cloud.google.com/go/storage v1.28.0
 	github.com/GoogleCloudPlatform/testgrid v0.0.38
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cheggaaa/pb/v3 v3.0.8
@@ -30,14 +30,14 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spiegel-im-spiegel/go-cvss v0.4.0
 	github.com/stretchr/testify v1.7.0
-	github.com/yuin/goldmark v1.4.0
-	golang.org/x/mod v0.4.2
-	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
-	golang.org/x/oauth2 v0.0.0-20210628180205-a41e5a781914
-	golang.org/x/tools v0.1.5
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
-	google.golang.org/api v0.50.0
-	google.golang.org/genproto v0.0.0-20210721163202-f1cecdd8b78a
+	github.com/yuin/goldmark v1.4.13
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
+	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b
+	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
+	golang.org/x/tools v0.1.12
+	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
+	google.golang.org/api v0.102.0
+	google.golang.org/genproto v0.0.0-20221024183307-1bc688fe9f3e
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/utils v0.0.0-20210305010621-2afb4311ab10
 	sigs.k8s.io/k8s-container-image-promoter v1.337.0
